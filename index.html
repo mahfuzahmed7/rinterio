@@ -47,12 +47,12 @@
 
 <body class="font-manrope">
     <!-- Header section -->
-    <header class="bg-header-bg">
+    <header class="bg-white">
         <!-- Navbar section -->
-        <nav class="my-10 mx-20 sm:mx-5">
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
 
+        <nav class="my-10 lg:mx-10">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start ">
                     <div class="dropdown">
                         <div tabindex="0" role="button" class="btn bg-gray-100 rounded-full  lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
@@ -63,17 +63,15 @@
                         </div>
                         <ul tabindex="0"
                             class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            <li><a class="text-black font-bold">Home</a></li>
-                            <li><a>Services</a></li>
-                            <li><a>Portfolio</a></li>
-                            <li><a>Blogs</a></li>
-                            <li><a>Contact Us</a></li>
-
+                            <li><a class="text-black font-bold text-lg">Home</a></li>
+                            <li><a class="text-lg">Services</a></li>
+                            <li><a class="text-lg">Portfolio</a></li>
+                            <li><a class="text-lg">Blogs</a></li>
+                            <li><a class="text-lg">Contact Us</a></li>
                         </ul>
-
                     </div>
-                    <a class="btn btn-ghost text-3xl"><i
-                            class="fa-solid fa-arrow-right -rotate-45 bg-vibrant-green-bg rounded-full "></i>Renterio</a>
+                    <a class="btn btn-ghost lg:text-4xl text-5xl"><i
+                            class="fa-solid fa-arrow-right -rotate-45 bg-vibrant-green-bg p-1 rounded-full "></i>Rinterio</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
@@ -85,13 +83,14 @@
                     </ul>
                 </div>
                 <div class="navbar-end hidden lg:flex gap-4 ">
-                    <i class="fa-solid fa-magnifying-glass bg-gray-200 rounded-full"></i>
-                    <i class="fa-solid fa-cart-shopping  bg-gray-200 rounded-full"></i>
-                    <a class="btn bg-vibrant-green-bg font-bold text-black rounded-full">Book Consult <i
-                            class="fa-solid fa-arrow-right -rotate-45 bg-black rounded-full text-white "></i></a>
+                    <i class="fa-solid fa-magnifying-glass bg-gray-200 p-1 rounded-full"></i>
+                    <i class="fa-solid fa-cart-shopping  bg-gray-200 p-1 rounded-full"></i>
+                    <a class="btn bg-vibrant-green-bg font-bold text-black">Book Consult <i
+                            class="fa-solid fa-arrow-right -rotate-45 bg-black p-1 rounded-full text-white "></i></a>
                 </div>
             </div>
         </nav>
+
 
         <!-- Banner section -->
         <section>
@@ -100,18 +99,18 @@
                     <img src="./assets/banner.png" alt="">
                 </div>
 
-                <h1 class="text-center text-6xl font-bold text-black mt-5">A barn house of this design has a
-                    <br>striking
-                    appearance
+                <h1 class="text-center text-6xl font-bold text-black mt-5">A barn house of this design has a <br
+                        class="hidden lg:inline-block">striking appearance
                 </h1>
-                <p class="text-center text-gray mt-5">The barn house captivates with its blend of rustic
+                <p class="text-center text-xl lg:text-base mt-5">The barn house captivates with its blend of rustic
                     charm and
                     modern
                     sophistication, featuring
                     weathered
-                    wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
+                    wood, sleek metal <br class="hidden lg:inline-block"> accents, and large windows that flood the
+                    space with natural light.</p>
                 <div class="flex justify-center items-center"> <button
-                        class="btn mt-5 text-xl text-black font-bold bg-vibrant-green-bg  rounded-full w-[335px] lg:w-[206px]">View
+                        class="btn mt-5 lg:text-xl text-2xl text-black font-bold bg-vibrant-green-bg p-1  rounded-full w-[335px] lg:w-[206px]">View
                         Details <i
                             class="fa-solid fa-arrow-right -rotate-45 bg-green-600 rounded-full text-black "></i></button>
                 </div>
@@ -123,35 +122,41 @@
     <!-- Main section -->
     <main>
         <!-- About us section -->
-
         <section class="bg-base-200 ">
             <div class="  lg:flex mx-5 lg:mx-20 my-10 w-full gap-5">
                 <div>
-                    <div>
-                        <div class="sm::hidden sm:mt-5">
-                            <img class="mt-10" src="./assets/Vector.png" alt="">
+                    <div class="text-center lg:text-left">
+                        <div
+                            class="mt-5 border-4 border-dotted border-gray-200 w-1/5 h-1/6 py-5 hidden lg:inline-block ">
+                            <img src="assets/Vector.png" alt="">
                         </div>
 
-                        <button class="btn bg-white rounded-full font-bold text-black"><i
+                        <button
+                            class="btn bg-white rounded-full font-bold text-black px-10 lg:px-5 mt-10 lg:mt-0 text-2xl lg:text-sm"><i
                                 class="fa-solid fa-arrow-right"></i>About
                             Us</button>
                         <h3 class="font-bold text-4xl mt-5">We design thoughtful, <br>liveable spaces</h3>
-                        <p class="text-black mt-5 mb-5">The barn house captivates with its blend of rustic charm and
-                            <br>
-                            modern sophistication, featuring weathered wood, sleek metal accents.
+                        <p class="text-black text-xl lg:text-base mt-5 mb-5 mr-5">The barn house captivates with
+                            its blend of
+                            rustic <br class="lg:hidden">charm
+                            and
+                            <br class="hidden lg:inline-block">
+                            modern sophistication, featuring <br class="lg:hidden">weathered wood, sleek metal accents.
                         </p>
                     </div>
                     <!-- card section -->
-                    <div>
+                    <div class="">
                         <!-- card1 -->
                         <div class="flex gap-5 bg-white py-6 rounded-lg mb-2">
                             <div class="ml-3">
                                 <img src="./assets/commercial.png" alt="">
                             </div>
                             <div>
-                                <h3 class="text-2xl font-bold">Commercial</h3>
-                                <p>The barn house captivates with its blend <br> of rustic charm and
-                                    modern.</p>
+                                <h3 class="lg:text-2xl text-3xl font-bold">Commercial</h3>
+                                <p class="text-xl lg:text-base">The barn house captivates with <br class="lg:hidden">its
+                                    blend <br class="hidden lg:inline-block">of rustic charm and
+                                    <br class="lg:hidden"> modern.
+                                </p>
                             </div>
                         </div>
                         <!-- card2 -->
@@ -160,31 +165,36 @@
                                 <img src="./assets/residential.png" alt="">
                             </div>
                             <div>
-                                <h3 class="text-2xl font-bold">Residential</h3>
-                                <p>The barn house captivates with its blend <br>of rustic charm and modern.</p>
+                                <h3 class="lg:text-2xl text-3xl font-bold">Residential</h3>
+                                <p class="text-xl lg:text-base">The barn house captivates with <br class="lg:hidden">its
+                                    blend <br class="hidden lg:inline-block">of rustic charm and
+                                    <br class="lg:hidden"> modern.
+                                </p>
                             </div>
                         </div>
                     </div>
 
                 </div>
                 <!-- image section -->
-                <div class="my-10 lg:ml-9 ">
+                <div class="my-10 lg:ml-9 mr-5">
                     <img class="lg:5/6" src="./assets/Rectangle.png" alt="">
                 </div>
             </div>
         </section>
 
-        <!-- Our work progress section -->
+        <!-- Our work process section -->
         <section class="bg-base-200">
             <div class="mx-5 lg:mx-20 my-10 ">
                 <div class="text-center ">
-                    <button class="btn bg-white rounded-full text-black mt-10"><i
+                    <button class="btn bg-white rounded-full text-black mt-10 px-15 lg:px-5 text-2xl lg:text-lg"><i
                             class="fa-solid fa-arrow-right"></i>How
                         we
                         works</button>
                     <h3 class="text-4xl font-bold mt-5">Our Works Process</h3>
-                    <p class="mt-5 text-gray">The barn house captivates with its blend of rustic charm and modern
-                        sophistication,<br> featuring
+                    <p class="mt-5 text-xl lg:text-base">The barn house captivates with its blend of rustic <br
+                            class="lg:hidden">
+                        charm and modern
+                        sophistication, <br class="hidden lg:inline-block"> featuring <br class="lg:hidden">
                         weathered wood, sleek metal accents.</p>
                 </div>
 
@@ -193,29 +203,38 @@
                     <!-- card1 -->
                     <div class="flex flex-col bg-pink-200 rounded-lg p-6 mb-3">
                         <img class="w-1/6" src="./assets/concept.png" alt="">
-                        <h4 class="text-xl font-bold">Concept</h4>
-                        <p class="text-gray">The barn house captivates with its blend of rustic charm <br> and modern.
+                        <h4 class="lg:text-xl text-2xl font-bold">Concept</h4>
+                        <p class="text-xl lg:text-base">The barn house captivates <br class="hidden lg:inline-block">
+                            with its <br class="lg:hidden"> blend of rustic
+                            charm and modern.
                         </p>
                     </div>
                     <!-- card2 -->
                     <div class="flex flex-col bg-yellow-200 rounded-lg p-6 mb-3">
                         <img class="w-1/6" src="./assets/flow-chart.png" alt="">
-                        <h4 class="text-xl font-bold">Design Process</h4>
-                        <p class="text-gray">The barn house captivates with its blend of rustic charm <br> and modern.
+                        <h4 class="text-2xl lg:text-xl font-bold">Design Process</h4>
+                        <p class="text-xl lg:text-base">The barn house captivates <br class="hidden lg:inline-block">
+                            with its <br class="lg:hidden"> blend of rustic
+                            charm and
+                            modern.
                         </p>
                     </div>
                     <!-- card3 -->
                     <div class="flex flex-col bg-green-300 rounded-lg p-6 mb-3">
                         <img class="w-1/6" src="./assets/vision.png" alt="">
-                        <h4 class="text-xl font-bold">Supervision</h4>
-                        <p class="text-gray">The barn house captivates with its blend of rustic charm <br> and modern.
+                        <h4 class="lg:text-xl text-2xl font-bold">Supervision</h4>
+                        <p class="text-xl lg:text-base">The barn house captivates <br class="hidden lg:inline-block">
+                            with its <br class="lg:hidden"> blend of rustic
+                            charm and modern.
                         </p>
                     </div>
                     <!-- card4 -->
-                    <div class="flex flex-col bg-blue-300 rounded-lg p-6">
+                    <div class="flex flex-col bg-blue-300 rounded-lg p-6 mb-3">
                         <img class="w-1/6" src="./assets/budget-planning.png" alt="">
-                        <h4 class="text-xl font-bold">Budget Planning</h4>
-                        <p class="text-gray">The barn house captivates with its blend of rustic charm <br> and modern.
+                        <h4 class="lg:text-xl text-2xl font-bold">Budget Planning</h4>
+                        <p class="text-xl lg:text-base">The barn house captivates <br class="hidden lg:inline-block">
+                            with its <br class="lg:hidden"> blend of rustic
+                            charm and modern.
                         </p>
                     </div>
                 </div>
@@ -226,13 +245,15 @@
         <section>
             <div class=" bg-white my-10 mx-5 lg:mx-20">
                 <div class="text-center ">
-                    <button class="btn bg-vibrant-green-bg font-bold rounded-full"><i
+                    <button class="btn bg-vibrant-green-bg font-bold rounded-full text-2xl lg:text-lg"><i
                             class="fa-solid fa-arrow-right"></i>
                         Explore our Latest works
                     </button>
                     <h3 class="text-4xl text-black font-bold mt-5 ">Our Latest Portfolio</h3>
-                    <p class="text-gray mt-5">The barn house captivates with its blend of rustic charm and modern
-                        sophistication,<br> featuring
+                    <p class="text-xl lg:text-base mt-5">The barn house captivates with its blend of rustic <br
+                            class="lg:hidden">
+                        charm and modern
+                        sophistication, <br class="hidden lg:inline-block"> featuring <br class="lg:hidden">
                         weathered wood, sleek metal accents.</p>
                 </div>
                 <!-- card section -->
@@ -244,16 +265,17 @@
                             <img class="h-full w-full" src="./assets/img1.png" alt="">
                         </div>
                         <div class="m-5">
-                            <h3 class="text-3xl text-black font-bold mb-5">Commercial</h3>
-                            <p class="text-gray">The barn house captivates with its <br class="lg:hidden"> blend of
+                            <h3 class="lg:text-3xl text-4xl text-black font-bold mb-5">Commercial</h3>
+                            <p class="text-xl lg:text-base">The barn house captivates with its <br class="lg:hidden">
+                                blend of
                                 rustic charm <br class="hidden lg:inline-block">and
                                 modern. <br class="lg:hidden">
                                 The barn house captivates with its <br class="lg:hidden"> blend of <br
                                     class="hidden lg:inline-block">
                                 rustic charm and
                                 modern .</p>
-                            <h3 class="text-2xl text-black font-bold mt-5">View Details <i
-                                    class="fa-solid fa-arrow-right -rotate-45 bg-green-600 rounded-full text-black "></i>
+                            <h3 class="lg:text-2xl text-3xl text-black font-bold mt-5">View Details <i
+                                    class="fa-solid fa-arrow-right -rotate-45 bg-green-600 p-1 rounded-full text-black "></i>
                             </h3>
                         </div>
                     </div>
@@ -281,13 +303,14 @@
                             </div>
                         </div>
                         <div class="m-5">
-                            <h3 class="text-3xl text-black font-bold">Commercial</h3>
-                            <p class="text-gray">The barn house captivates with <br class="hidden lg:inline-block"> its
+                            <h3 class="lg:text-3xl text-4xl text-black font-bold">Commercial</h3>
+                            <p class="text-xl lg:text-base">The barn house captivates with <br
+                                    class="hidden lg:inline-block"> its
                                 <br class="lg:hidden"> blend of rustic charm and <br class="hidden lg:inline-block">
                                 modern.
                             </p>
-                            <h3 class="text-2xl text-black font-bold mt-5">View Details <i
-                                    class="fa-solid fa-arrow-right -rotate-45 bg-green-600 rounded-full text-black "></i>
+                            <h3 class="lg:text-2xl text-3xl text-black font-bold mt-5">View Details <i
+                                    class="fa-solid fa-arrow-right -rotate-45 bg-green-600 p-1 rounded-full text-black "></i>
                             </h3>
                         </div>
                     </div>
@@ -306,11 +329,13 @@
             <div class="mx-5 lg:mx-20 my-10">
                 <div class="text-center pt-10">
                     <h3 class="text-black text-4xl font-bold ">Minimum living cost <br>takes care of everything</h3>
-                    <p class="text-gray mt-5">Subsistence level" might be the term you're looking for. <br> It’s a
+                    <p class=" text-xl lg:text-base mt-5">Subsistence level" might be the term you're looking
+                        for. It’s a <br class="hidden lg:inline-block">
                         concise
                         way to convey the
                         same
-                        concept: <br>living with the bare minimum necessary to cover all basic needs.</p>
+                        concept: living with the <br class="hidden lg:inline-block"> bare minimum necessary to cover all
+                        basic needs.</p>
                 </div>
 
                 <div class="grid lg:grid-cols-3 gap-10 mt-5">
@@ -319,34 +344,32 @@
                         <img src="assets/modern-residential-district-with-green-roof-balcony.png" alt="">
                     </div>
                     <!-- card section -->
-                    <div class=" bg-white text-center lg:flex lg:col-span-2 gap-5 ">
-                        <div class="lg:ml-10 mt-5">
-                            <p class="text-5xl"> <i class="fa-solid fa-dollar-sign"></i></p>
-                            <h4 class="text-xl text-black font-bold mt-5">Pay as little <br>as possible!</h4>
+                    <div class=" bg-white text-center lg:flex  lg:col-span-2 gap-5  ">
+                        <div class="lg:ml-10 mt-5 shadow">
+                            <p class="lg:text-5xl text-7xl"> <i class="fa-solid fa-dollar-sign"></i></p>
+                            <h4 class="lg:text-xl text-2xl text-black font-bold mt-5">Pay as little as possible!</h4>
                         </div>
-                        <div class=" mt-5">
-                            <p class="text-5xl"><i class="fa-solid fa-house"></i></p>
-                            <h4 class="text-xl text-black font-bold mt-5">Enjoy wisdom <br> of community!</h4>
+                        <div class=" mt-5 shadow">
+                            <p class="lg:text-5xl text-7xl"><i class="fa-solid fa-house"></i></p>
+                            <h4 class="lg:text-xl text-2xl text-black font-bold mt-5">Enjoy wisdom of community!</h4>
                         </div>
-                        <div class="mt-5">
-                            <p class="text-5xl"><i class="fa-solid fa-user-check"></i></p>
-                            <h4 class="text-xl text-black font-bold mt-5">Let's somebody else <br>
-                                take care of Landlord!</h4>
+                        <div class="mt-5 shadow">
+                            <p class="lg:text-5xl text-7xl"><i class="fa-solid fa-user-check"></i></p>
+                            <h4 class="lg:text-xl text-2xl text-black font-bold mt-5">Let's somebody else take care of
+                                Landlord!
+                            </h4>
                         </div>
-                        <div class="mt-5">
-                            <p class="text-5xl"><i class="fa-solid fa-seedling"></i></p>
-                            <h4 class="text-xl text-black font-bold mt-5">Enjoy peaceful <br>
-                                Environment!</h4>
+                        <div class="mt-5 shadow">
+                            <p class="lg:text-5xl text-7xl"><i class="fa-solid fa-seedling"></i></p>
+                            <h4 class="lg:text-xl text-2xl text-black font-bold mt-5">Enjoy peaceful Environment!</h4>
                         </div>
-                        <div class="mt-5">
-                            <p class="text-5xl"><i class="fa-solid fa-shield"></i></p>
-                            <h4 class="text-xl text-black font-bold mt-5">Stay Safe! <br>
-                                Save Money!</h4>
+                        <div class="mt-5 shadow">
+                            <p class="lg:text-5xl text-7xl"><i class="fa-solid fa-shield"></i></p>
+                            <h4 class="lg:text-xl text-2xl text-black font-bold mt-5">Stay Safe Save Money!</h4>
                         </div>
-                        <div class="mt-5 lg:mr-10">
-                            <p class="text-5xl"><i class="fa-solid fa-money-check"></i></p>
-                            <h4 class="text-xl text-black font-bold mt-5 mb-5">Pay for what <br>
-                                you use !</h4>
+                        <div class="mt-5 lg:mr-10 shadow">
+                            <p class="lg:text-5xl text-7xl"><i class="fa-solid fa-money-check"></i></p>
+                            <h4 class="lg:text-xl text-2xl text-black font-bold mt-5 mb-5">Pay for what you use !</h4>
                         </div>
                     </div>
                 </div>
@@ -362,13 +385,16 @@
             <div class="my-5 w-full h-auto bg-[url('/assets/bg.jpg')]">
                 <div>
                     <div class="text-center">
-                        <button class="btn bg-vibrant-green-bg opacity-80 font-bold text-black mb-5 mt-20"><i
+                        <button
+                            class="btn bg-vibrant-green-bg opacity-80 font-bold text-black mb-5 mt-20 text-2xl lg:text-lg rounded-full"><i
                                 class="fa-solid fa-arrow-right"></i>Let’s
                             Connect</button>
                         <h3 class="text-4xl font-bold text-black mb-5">Let’s Discuss Next Project</h3>
-                        <p class="text-gray">The barn house captivates with its blend of rustic charm and modern
-                            sophistication, <br>
-                            featuring weathered wood, sleek metal accents.</p>
+                        <p class="text-xl lg:text-base">The barn house captivates with its blend of rustic <br
+                                class="lg:hidden">
+                            charm and modern
+                            sophistication, <br class="hidden lg:inline-block">
+                            featuring <br class="lg:hidden"> weathered wood, sleek metal accents.</p>
 
                     </div>
                 </div>
@@ -376,39 +402,40 @@
                 <div class="mx-5 my-5 lg:mx-20 grid lg:grid-cols-2 grid-cols-1 justify-center items-center gap-5 ">
                     <!-- input1 -->
 
-                    <div class="bg-white py-3 rounded-full">
+                    <div class="bg-white py-3 rounded-full text-xl lg:text-base">
                         <input class=" text-gray ml-3  " type="text" name="" id="" placeholder="First Name*">
                     </div>
 
                     <!-- input2 -->
 
-                    <div class="bg-white py-3 rounded-full">
+                    <div class="bg-white py-3 rounded-full text-xl lg:text-base">
                         <input class="text-gray ml-3" type="text" name="" id="" placeholder="Last Name*">
 
                     </div>
 
                     <!-- input3 -->
 
-                    <div class="bg-white py-3 rounded-full">
+                    <div class="bg-white py-3 rounded-full text-xl lg:text-base">
                         <input class="text-gray ml-3" type="text" name="" id="" placeholder="Phone Number*">
                     </div>
 
 
                     <!-- input4 -->
-                    <div class="bg-white py-3 rounded-full">
+                    <div class="bg-white py-3 rounded-full text-xl lg:text-base">
                         <input class="text-gray ml-3" type="text" name="" id="" placeholder="Email Number*">
                     </div>
                 </div>
                 <!-- input5 -->
-                <div class="bg-white  rounded-lg lg:mx-20 mx-5">
+                <div class="bg-white  rounded-lg lg:mx-20 mx-5 text-xl lg:text-base">
                     <input class="text-gray ml-3 mt-3 pb-20  " type="text" name="" id=""
                         placeholder="Write your message here">
                 </div>
                 <!-- input-6 -->
-                <div class="lg:mx-20 mx-5 bg-vibrant-green-bg  py-3 rounded-full flex justify-center items-center mt-5">
+                <div
+                    class="lg:mx-20 mx-5 bg-vibrant-green-bg  py-3 rounded-full flex justify-center items-center mt-5 text-2xl lg:text-base">
                     <button class="text-black font-bold">Send
                         Mail <i
-                            class="fa-solid fa-arrow-right -rotate-45 text-white bg-black rounded-full "></i></button>
+                            class="fa-solid fa-arrow-right -rotate-45 text-white bg-black p-1 rounded-full "></i></button>
                 </div>
                 <div class="py-10">
 
@@ -420,27 +447,29 @@
     <!-- Footer section -->
     <footer class="bg-footer-bg my-10">
         <div class="text-center pt-20 mx-5">
-            <h4 class=" text-white text-4xl font-bold mb-5"><i
-                    class="fa-solid fa-arrow-right -rotate-45 text-black bg-vibrant-green-bg rounded-full mr-2  "></i>Rinterio
+            <h4 class=" text-white text-6xl lg:text-4xl font-bold mb-5"><i
+                    class="fa-solid fa-arrow-right -rotate-45 text-black bg-vibrant-green-bg p-1 rounded-full mr-2  "></i>Rinterio
             </h4>
-            <p class="text-gray-50 opacity-50 mb-10">The barn house captivates with its blend of rustic charm and modern
-                sophistication,
-                <br>featuring
-                weathered
+            <p class="text-gray-50 opacity-50 mb-10 text-xl lg:text-base">The barn house captivates with its blend <br
+                    class="lg:hidden"> of
+                rustic charm and modern <br class="lg:hidden">
+                sophistication, <br class="hidden lg:inline-block">
+                featuring
+                weathered <br class="lg:hidden">
                 wood, sleek metal accents.
             </p>
         </div>
         <div class="text-center text-white opacity-90 lg:flex justify-between mx-20 ">
 
-            <p class="mb-5">Home</p>
-            <p class="mb-5">Services</p>
-            <p class="mb-5">Portfolio</p>
-            <p class="mb-5">Blogs</p>
-            <p class="mb-5">Contact Us</p>
+            <p class="mb-5 text-xl lg:text-base">Home</p>
+            <p class="mb-5 text-xl lg:text-base">Services</p>
+            <p class="mb-5 text-xl lg:text-base">Portfolio</p>
+            <p class="mb-5 text-xl lg:text-base">Blogs</p>
+            <p class="mb-5 text-xl lg:text-base">Contact Us</p>
         </div>
         <div class="text-center bg-vibrant-green-bg rounded-full py-3 mx-5 lg:w-1/6 lg:mx-auto">
-            <h3 class="text-2xl text-black font-bold items-center">Book Consult <i
-                    class="fa-solid fa-arrow-right -rotate-45 text-white bg-black rounded-full  "></i>
+            <h3 class="lg:text-2xl text-3xl text-black font-bold items-center">Book Consult <i
+                    class="fa-solid fa-arrow-right -rotate-45 text-white bg-black p-1 rounded-full  "></i>
             </h3>
         </div>
         <div class="py-10">
